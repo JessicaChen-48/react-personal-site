@@ -9,7 +9,6 @@ function Button({ children, type, onClick, buttonStyle, buttonSize }) {
   const checkBtnSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
   return (
     <>
-      <Link to="/contact" className="btn-mobile">
         <button
           className={`btn ${checkBtnStyle} ${checkBtnSize}`}
           onClick={onClick}
@@ -17,7 +16,6 @@ function Button({ children, type, onClick, buttonStyle, buttonSize }) {
         >
           {children}
         </button>
-      </Link>
     </>
   );
 }

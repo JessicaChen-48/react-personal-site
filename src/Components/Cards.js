@@ -1,6 +1,6 @@
 import CardItem from "./CardItem"
 import "./Cards.css"
-import img9 from "../images/img-9.jpg"
+import warbler from "../images/warbler-hero.jpeg"
 import img2 from "../images/img-2.jpg"
 import img7 from "../images/img-7.jpg"
 import img8 from "../images/img-8.jpg"
@@ -10,16 +10,16 @@ function Cards() {
    // cards1 and cards2 is separated by ul so that 2 stack on top of 3
   let cards1 = [
     {
-      src: img9,
+      src: img2,
       text: "Jobly: React front-end and RESTful API built with Express",
       label: "REACT & EXPRESS",
       path: "/services"
     },
     {
-      src: img7,
+      src: warbler,
       text: "Warbler: Twitter clone that uses SQL-Alchemy for database querying",
       label: "FLASK & JINJA",
-      path: "/services"
+      path: "https://warblerwarblering.herokuapp.com/"
     }
   ]
    let cards2= [
