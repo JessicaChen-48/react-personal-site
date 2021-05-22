@@ -1,10 +1,11 @@
 import Navbar from "./Components/Navbar"
+import Footer from "./Components/Footer"
 import {BrowserRouter, Switch, Route} from "react-router-dom"
 import './App.css';
-import Home from "./Components/pages/Home"
-import Products from "./Components/pages/Products"
-import Services from "./Components/pages/Services"
-import Signup from "./Components/pages/Signup"
+import Home from "./pages/Home"
+import Projects from "./pages/Projects"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
 
 function App() {
   return (
@@ -13,11 +14,13 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}></Route>
-        <Route exact path="/projects" component={Products} />
-        <Route exact path="/about" component={Services} />
-        <Route exact path="/contact" component={Signup} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Footer/>
     </BrowserRouter>
+
     </>
   );
 }
