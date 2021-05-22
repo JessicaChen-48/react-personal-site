@@ -6,9 +6,9 @@ function CardItem({path, src, text, label}) {
     <>
       <li className="cards-item">
         <div className="cards-item-link">
-          <a href="https://warblerwarblering.herokuapp.com/">
+          <a href={path}>
           <figure className="cards-item-pic-wrap" data-category={label}>
-            <img className="cards-item-img" src={src} alt=""></img>
+            <img className="cards-item-img" src={src} alt={text}></img>
           </figure>
           </a>
           <div className="cards-item-info">

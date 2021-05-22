@@ -24,6 +24,12 @@
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
+.cards-item-pic-wrap::after {
+  content: attr(data-category);
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
 @media only screen and (max-width: 800px) {
   .page-text {
     margin: 0;
