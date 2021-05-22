@@ -1,6 +1,4 @@
-import Button from "./Button";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -9,41 +7,45 @@ function Footer() {
         <div className="social-media-wrap">
           <small className="website-rights">Jessica Chen © 2021</small>
           <div className="social-icons">
-            <Link
+            <a
               className="social-icon-link linkedin"
-              to="https://www.linkedin.com/in/jessicachen415"
+              href="https://www.linkedin.com/in/jessicachen415"
               target="_blank"
+              rel="noreferrer"
               aria-label="LinkedIn"
             >
               <i className="fab fa-linkedin"></i>
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="social-icon-link github"
-              to="https://github.com/JessicaChen-48"
+              href="https://github.com/JessicaChen-48"
               target="_blank"
+              rel="noreferrer"
               aria-label="Github"
             >
               <i className="fab fa-github"></i>
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="social-icon-link email"
-              to="mailto:jessica@jessicaazchen.com"
+              href="mailto:jessica@jessicaazchen.com"
               target="_blank"
+              rel="noreferrer"
               aria-label="Email"
             >
               <i className="far fa-envelope"></i>
-            </Link>
+            </a>
 
-            <Link
+            <a
               className="social-icon-link twitter"
-              to="https://twitter.com/CallawayJess"
+              href="https://twitter.com/CallawayJess"
               target="_blank"
+              rel="noreferrer"
               aria-label="Twitter"
             >
               <i className="fab fa-twitter"></i>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
