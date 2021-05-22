@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer-container">
       <section className="social-media">
         <div className="social-media-wrap">
-          <small className="website-rights">Jessica Chen (c) 2021</small>
+          <small className="website-rights">Jessica Chen © 2021</small>
           <div className="social-icons">
             <Link
               className="social-icon-link linkedin"

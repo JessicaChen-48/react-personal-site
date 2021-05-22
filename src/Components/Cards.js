@@ -1,5 +1,6 @@
 import CardItem from "./CardItem"
 import "./Cards.css"
+import * from "../ProjectHelper"
 import warblerImg from "../images/warbler-hero.jpeg"
 import joblyImg from "../images/jobly.jpg"
 import pokeballImg from "../images/pokeball.png"

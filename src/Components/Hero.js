@@ -10,7 +10,7 @@ function Hero() {
       <p>a front-end software engineer</p>
       <div className="hero-btns">
         <Link to="/about"><Button className="btns" buttonStyle="btn--outline" buttonSize="btn-large">ABOUT ME</Button></Link>
-        <Link to="/projects"><Button className="btns" buttonStyle="btn--primary" buttonSize="btn-large">CHECK OUT MY PROJECTS<i className="far fa-play-circle"></i></Button></Link>
+        <Link to="/projects"><Button className="btns" buttonStyle="btn--primary" buttonSize="btn-large">RECENT PROJECTS</Button></Link>
       </div>
     </div>
   )
