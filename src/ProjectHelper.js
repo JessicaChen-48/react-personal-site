@@ -8,13 +8,15 @@ let cards1 = [
     src: joblyImg,
     text: "Jobly: React front-end and RESTful API built with Express",
     label: "REACT & EXPRESS",
-    path: "http://jobly.jessicaazchen.com"
+    path: "http://jobly.jessicaazchen.com",
+    github: ""
   },
   {
     src: warblerImg,
     text: "Warbler: Twitter clone that uses SQL-Alchemy for database querying",
     label: "FLASK & JINJA",
-    path: "https://warblerwarblering.herokuapp.com/"
+    path: "https://warblerwarblering.herokuapp.com/",
+    github: "https://github.com/JessicaChen-48/flask-warbler"
   }
 ]
  let cards2= [
@@ -23,19 +25,21 @@ let cards1 = [
     src: siteImg,
     text: "Personal Website: mobile-first, fully responsive React website",
     label: "REACT",
-    path: "/"
+    path: "/",
+    github: "https://github.com/JessicaChen-48/react-personal-site"
   },
   {
     src: siteImg,
     text: "TaxLion: React single-page application for calculating taxes for stocks",
     label: "REACT",
-    path: "/services"
+    path: "/"
   },
   {
     src: pokeballImg,
     text: "Poke Trainer: React site integrating with the PokeAPI",
     label: "REACT",
-    path: "/services"
+    path: "/",
+    github: "https://github.com/JessicaChen-48/poketeams"
   }
 ]
 

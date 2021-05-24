@@ -10,13 +10,18 @@ function Cards() {
       <div className="cards-container">
         <div className="cards-wrapper">
           <ul className="cards-items">
-            {cards1.map(card =>
-              <CardItem src={card.src} text={card.text} label={card.label} path={card.path}/>
-            )}
+            {cards1.map(card => {
+              let {src, text, label, path, github} = card;
+              return <CardItem src={src} text={text} label={label} path={path} github={github}/>
+            }
+              )}
           </ul>
           <ul className="cards-items">
             {cards2.map(card =>
-              <CardItem src={card.src} text={card.text} label={card.label} path={card.path}/>
+             {
+              let {src, text, label, path, github} = card;
+              return <CardItem src={src} text={text} label={label} path={path} github={github}/>
+            }
             )}
           </ul>
         </div>
