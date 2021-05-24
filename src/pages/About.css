@@ -16,33 +16,40 @@
 
 .about-page-text {
   text-align: center;
-  color: rgb(10, 9, 9);
-  background-color:rgba(255, 255, 255, .6);
+  color: rgb(26, 18, 18);
+  background-color:rgba(255, 255, 255, .67);
   padding: 1rem 2rem;
   margin: 5rem;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(58, 68, 87, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
+
+.about-page-text, p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+strong {
+  font-size: 1.11rem;
+}
+
 @media only screen and (min-width: 1100px) {
-  .page-text {
+  .about-page-text {
     height: 90vh;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .page-text {
+  .about-page-text {
     margin: 0;
-  }
-}
-@media only screen and (max-width: 625px) {
-  .extra {
-    display: none;
   }
 }
 
 @media only screen and (max-width: 330px) {
   .about-container {
-    height: 100vh;
+    height: fit-content;
   }
 }

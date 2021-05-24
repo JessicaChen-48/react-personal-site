@@ -16,12 +16,22 @@
 .page-text {
   text-align: center;
   color: rgb(10, 9, 9);
-  background-color:rgba(255, 255, 255, .6);
+  background-color:rgba(255, 255, 255, .69);
   padding: 1rem 2rem;
   margin: 5rem;
   border-radius: 10px;
   box-shadow: 0 6px 20px rgba(58, 68, 87, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+.social-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon-link-contact {
+  color: black;
+  margin: 1.5rem;
 }
 
 @media only screen and (max-width: 800px) {

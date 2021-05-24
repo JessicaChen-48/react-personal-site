@@ -31,7 +31,9 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
-  max-width: 500px
+  max-width: 500px;
+  position: relative;
+
 }
 
 .cards-item-link {
@@ -44,6 +46,34 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+  position: relative;
+  width: 100%;
+}
+
+.btns {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+  margin: 0 1px;
+}
+
+.btn {
+  margin: 2px;
+}
+
+
+.cards-item:hover .btns {
+  opacity: 1;
 }
 
 .cards-item-pic-wrap {
@@ -74,6 +104,15 @@ h1 {
   box-sizing: border-box;
 }
 
+.label-hidden::after{
+  background-color: transparent;
+}
+
+.btn-container {
+  position: absolute;
+  margin: auto;
+}
+
 .cards-item-img {
   position: absolute;
   top: 0;
@@ -89,25 +128,19 @@ h1 {
   transition: all 0.2s linear;
 }
 
-.overlay {
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  bottom: 50%;
-}
-
-.cards-item-img:hover .overlay {
-  display: none;
-  z-index: -1;
-}
-
 .cards-item-img:hover {
   transform: scale(1.1);
 }
 
+.cards-item-img:hover .btns{
+  opacity: 1;
+}
+
+
 .cards-item-info {
   padding: 20px 30px 30px;
   background-color: #fff;
+  height: -webkit-fill-available;
 }
 
 .cards-item-text {
@@ -133,40 +166,3 @@ h1 {
     margin-bottom: 2rem;
   }
 }
-
-/* .flip-card {
-  width: 50%;
-  height: 200px;
-  background: red;
-  position: relative;
-  perspective: 100vw;
-}
-
-.flip-card .front, .flip-card .back {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: yellow;
-  background-size: cover;
-  transition: .8s;
-  backface-visibility: hidden;
-}
-
-.flip-card:hover .front {
-  transform: rotateY(180def) scale(.5);
-}
-.flip-card .back {
-  background: black;
-  color: black;
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform:rotateY(180deg) scale(1);
-}
-
-.flip-card:hover .back {
-  transform:rotateY(360deg);
-} */

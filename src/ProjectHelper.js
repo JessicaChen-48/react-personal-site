@@ -1,6 +1,6 @@
 import warblerImg from "./images/warbler-hero.jpeg"
 import joblyImg from "./images/jobly.jpg"
-import pokeballImg from "./images/pokeball.png"
+import pokeballImg from "./images/poke.jpg"
 import siteImg from "./images/hero-img-3.jpg"
 
 let cards1 = [

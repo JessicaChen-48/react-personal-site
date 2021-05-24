@@ -40,12 +40,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .page-text {
+  .projects-page-text {
     margin: 0;
-  }
-}
-@media only screen and (max-width: 625px) {
-  .extra {
-    display: none;
   }
 }
