@@ -23,6 +23,7 @@ h1 {
 
 .cards-items {
   margin-bottom: 24px;
+  justify-content: center;
 }
 
 .cards-item {
@@ -30,6 +31,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  max-width: 500px
 }
 
 .cards-item-link {
@@ -68,7 +70,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #0b75c6d4;
   box-sizing: border-box;
 }
 
@@ -85,6 +87,18 @@ h1 {
   max-height: 100%;
   object-fit: cover;
   transition: all 0.2s linear;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: 50%;
+}
+
+.cards-item-img:hover .overlay {
+  display: none;
+  z-index: -1;
 }
 
 .cards-item-img:hover {
@@ -119,3 +133,40 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+/* .flip-card {
+  width: 50%;
+  height: 200px;
+  background: red;
+  position: relative;
+  perspective: 100vw;
+}
+
+.flip-card .front, .flip-card .back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: yellow;
+  background-size: cover;
+  transition: .8s;
+  backface-visibility: hidden;
+}
+
+.flip-card:hover .front {
+  transform: rotateY(180def) scale(.5);
+}
+.flip-card .back {
+  background: black;
+  color: black;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform:rotateY(180deg) scale(1);
+}
+
+.flip-card:hover .back {
+  transform:rotateY(360deg);
+} */

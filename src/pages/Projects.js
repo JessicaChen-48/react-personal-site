@@ -1,13 +1,14 @@
-import "../App.css";
-import "./Projects.css";
 import {reactCards, expressCards, flaskCards} from "../ProjectHelper"
 import CardItem from "../Components/CardItem"
+import "../App.css";
+import "./Projects.css";
+
 function Projects() {
 
   return (
     <>
-      <div className="container">
-        <div className="page-text">
+      <div className="projects-container">
+        <div className="projects-page-text">
           <h1>REACT</h1>
         <ul className="cards-items">
             {reactCards.map(card =>

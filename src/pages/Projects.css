@@ -1,4 +1,4 @@
-.container {
+.projects-container {
   background: url("../images/project.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -13,7 +13,8 @@
   object-fit: contain;
 }
 
-.page-text {
+.projects-page-text {
+  height: fit-content;
   text-align: center;
   color: rgb(10, 9, 9);
   background-color:rgba(255, 255, 255, .6);
@@ -26,8 +27,16 @@
 
 .cards-item-pic-wrap::after {
   content: attr(data-category);
-  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  padding: 6px 8px;
+  max-width: calc((100%) - 60px);
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
   box-sizing: border-box;
+  /* background-color: transparent; */
 }
 
 @media only screen and (max-width: 800px) {

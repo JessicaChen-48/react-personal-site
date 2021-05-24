@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <div className="about-container">
-        <div className="page-text">
+        <div className="about-page-text">
           <h1>ABOUT ME</h1>
           <p>
             My name is Jessica and I'm a full stack web developer. My coding

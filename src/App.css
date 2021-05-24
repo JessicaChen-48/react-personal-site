@@ -10,43 +10,10 @@
 .projects,
 .contact {
   display: flex;
-  /* height: 90vh; */
-  /* align-items: center; */
   justify-content: center;
   font-size: 3rem;
 }
 
-
-
-/* .about {
-  background-image: url('images/bike.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-} */
-
-.projects {
-  background-image: url('images/project.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.contact {
-  background-image: url('images/hello.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 
 @media screen and (max-width: 600px) {
   .projects {

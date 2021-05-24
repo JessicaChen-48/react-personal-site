@@ -1,9 +1,11 @@
 import "../App.css"
-
+import "./Contact.css"
 function Contact() {
   return (
     <>
-    <h1 className="contact">CONTACT</h1>
+          <div className="contact-container">
+        <div className="page-text">
+          </div></div>
     </>
   )
 }
