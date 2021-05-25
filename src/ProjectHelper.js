@@ -1,7 +1,7 @@
-import warblerImg from "./images/warbler-hero.jpeg"
-import joblyImg from "./images/jobly.jpg"
-import pokeballImg from "./images/poke.jpg"
-import siteImg from "./images/hero-img-3.jpg"
+import warblerImg from "./assets/warbler-hero.jpeg"
+import joblyImg from "./assets/jobly.jpg"
+import pokeballImg from "./assets/poke.jpg"
+import siteImg from "./assets/hero-img-3.jpg"
 
 let cards1 = [
   {
