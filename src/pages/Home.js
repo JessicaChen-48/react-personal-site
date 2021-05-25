@@ -1,13 +1,14 @@
 import "../App.css"
 import Hero from "../Components/Hero"
 import Cards from "../Components/Cards"
-import Footer from "../Components/Footer"
+import About from "./About"
 
 
 function Home() {
   return (
     <>
       <Hero/>
+      <About />
       <Cards/>
     </>
   )

@@ -31,7 +31,7 @@ function CardItem({ path, src, text, label, github }) {
             rel="noreferrer"
             aria-label="To to demo"
           >
-            <Button buttonStyle="btn--primary">LINK</Button>
+            <Button buttonStyle="btn--primary">DEMO</Button>
           </a>
         </div>
       </li>
