@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import "./Hero.css"
 
 function Hero() {
   return (
-    <div className="hero-container">
+    <div id="home-anchor" className="hero-container">
       <h1>I'm Jessica</h1>
       <p>a full-stack software engineer</p>
       <div className="hero-btns">

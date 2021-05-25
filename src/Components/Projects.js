@@ -5,7 +5,8 @@ import {cards1, cards2} from "../ProjectHelper"
 function Cards() {
 
   return (
-    <div className="cards">
+    <>
+    <div id="projects-anchor" className="cards">
       <h1>RECENT PROJECTS</h1>
       <div className="cards-container">
         <div className="cards-wrapper">
@@ -27,6 +28,7 @@ function Cards() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

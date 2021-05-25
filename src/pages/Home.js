@@ -1,6 +1,6 @@
 import "../App.css"
 import Hero from "../Components/Hero"
-import Cards from "../Components/Cards"
+import Cards from "../Components/Projects"
 import About from "./About"
 
 

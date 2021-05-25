@@ -2,10 +2,11 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div id="contact-anchor" className="footer-container">
+      <h1>CONTACT ME</h1>
       <section className="social-media">
         <div className="social-media-wrap">
-          <small className="website-rights">Jessica Chen © 2021</small>
+
           <div className="social-icons">
             <a
               className="social-icon-link linkedin"
@@ -14,7 +15,7 @@ function Footer() {
               rel="noreferrer"
               aria-label="LinkedIn"
             >
-              <i className="fab fa-linkedin"></i>
+              <i className="fab fa-2x fa-linkedin"></i>
             </a>
 
             <a
@@ -24,7 +25,7 @@ function Footer() {
               rel="noreferrer"
               aria-label="Github"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-2x fa-github"></i>
             </a>
 
             <a
@@ -34,7 +35,7 @@ function Footer() {
               rel="noreferrer"
               aria-label="Email"
             >
-              <i className="far fa-envelope"></i>
+              <i className="far fa-2x fa-envelope"></i>
             </a>
 
             <a
@@ -44,11 +45,14 @@ function Footer() {
               rel="noreferrer"
               aria-label="Twitter"
             >
-              <i className="fab fa-twitter"></i>
+              <i className="fab fa-2x fa-twitter"></i>
             </a>
           </div>
         </div>
       </section>
+      <br/>
+      <br/>
+      <small className="website-rights">Jessica Chen © 2021</small>
     </div>
   );
 }

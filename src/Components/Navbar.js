@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
 import Button from "./Button"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -37,36 +38,36 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
 
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+              <AnchorLink offset="100" href="#home-anchor" className="nav-links" onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link
-                to="#about-anchor"
+              <AnchorLink
+                href="#about-anchor"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 About Me
-              </Link>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link
-                to="/projects"
+              <AnchorLink
+                href="#projects-anchor"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Projects
-              </Link>
+              </AnchorLink>
             </li>
             <li className="nav-item">
-              <Link
-                to="/contact"
+              <AnchorLink
+                href="#contact-anchor"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
+              </AnchorLink>
             </li>
           </ul>
 
