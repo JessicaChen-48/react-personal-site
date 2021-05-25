@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import "./Navbar.css"
-import Button from "./Button"
-import AnchorLink from "react-anchor-link-smooth-scroll"
+import "./Navbar.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import talk from "../assets/talk.jpg";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -10,15 +9,15 @@ function Navbar() {
 
   function handleClick() {
     setClick(!click);
-  };
+  }
 
   function closeMobileMenu() {
     setClick(false);
-  };
+  }
 
   function showButton() {
-    (window.innerWidth > 960) ? setButton(true) : setButton(false)
-  };
+    window.innerWidth > 960 ? setButton(true) : setButton(false);
+  }
 
   useEffect(() => {
     showButton();
@@ -29,16 +28,19 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-      <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"} />
-          </div>
-          
+        <div className="menu-icon" onClick={handleClick}>
+          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        </div>
+
         <div className="navbar-container">
-
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-
             <li className="nav-item">
-              <AnchorLink offset="100" href="#home-anchor" className="nav-links" onClick={closeMobileMenu}>
+              <AnchorLink
+                offset="100"
+                href="#home-anchor"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 Home
               </AnchorLink>
             </li>
@@ -69,8 +71,18 @@ function Navbar() {
                 Contact
               </AnchorLink>
             </li>
+            <li className="nav-item">
+              <a
+                href={talk}
+                className="nav-links"
+                onClick={closeMobileMenu}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
-
         </div>
       </nav>
     </>
