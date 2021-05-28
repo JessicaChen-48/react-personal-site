@@ -1,5 +1,5 @@
 import Button from "./Button"
-import {Link} from "react-router-dom"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import "../App.js"
 import "./Hero.css"
 
@@ -9,8 +9,8 @@ function Hero() {
       <h1>I'm Jessica</h1>
       <p>a full-stack software engineer</p>
       <div className="hero-btns">
-        <Link to="/about"><Button className="btns" buttonStyle="btn--outline" buttonSize="btn-large">ABOUT ME</Button></Link>
-        <Link to="/projects"><Button className="btns" buttonStyle="btn--primary" buttonSize="btn-large">RECENT PROJECTS</Button></Link>
+        <AnchorLink href="#about-anchor"><Button className="btns" buttonStyle="btn--outline" buttonSize="btn-large">ABOUT ME</Button></AnchorLink>
+        <AnchorLink href="#projects-anchor"><Button className="btns" buttonStyle="btn--primary" buttonSize="btn-large">RECENT PROJECTS</Button></AnchorLink>
       </div>
     </div>
   )
