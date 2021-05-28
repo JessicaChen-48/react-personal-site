@@ -1,7 +1,5 @@
 import "../App.css";
-// import "./About.css";
-import "./About1.css";
-import { Link } from "react-router-dom";
+import "./About.css";
 
 function About() {
   return (
