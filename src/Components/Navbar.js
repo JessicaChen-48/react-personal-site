@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import talk from "../assets/talk.jpg";
+import resume from "../assets/Jessica Chen Resume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -73,7 +73,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href={talk}
+                href={resume}
                 className="nav-links"
                 onClick={closeMobileMenu}
                 target="_blank"

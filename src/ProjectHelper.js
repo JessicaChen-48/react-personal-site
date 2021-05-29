@@ -6,10 +6,10 @@ import siteImg from "./assets/hero-img-3.jpg"
 let cards1 = [
   {
     src: joblyImg,
-    text: "Jobly: React front-end and RESTful API built with Express",
+    text: "Jobly: Job board created with React front-end and RESTful API built with Express",
     label: "REACT & EXPRESS",
     path: "http://jobly.jessicaazchen.com",
-    github: ""
+    github: "https://github.com/JessicaChen-48/jobly-fullstack"
   },
   {
     src: warblerImg,
@@ -38,7 +38,7 @@ let cards1 = [
     src: pokeballImg,
     text: "Poke Trainer: React site integrating with the PokeAPI",
     label: "REACT",
-    path: "/",
+    path: "http://poketeams.jessicaazchen.com/",
     github: "https://github.com/JessicaChen-48/poketeams"
   }
 ]
