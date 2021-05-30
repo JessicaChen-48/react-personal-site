@@ -1,17 +1,16 @@
-import "../App.css"
-import Hero from "./Hero"
-import Cards from "./Projects"
-import About from "./About"
-
+import "../App.css";
+import Hero from "./Hero";
+import Cards from "./Projects";
+import About from "./About";
 
 function Home() {
   return (
     <>
-      <Hero/>
+      <Hero />
       <About />
-      <Cards/>
+      <Cards />
     </>
-  )
+  );
 }
 
 export default Home;

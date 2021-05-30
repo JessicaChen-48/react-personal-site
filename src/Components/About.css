@@ -1,6 +1,6 @@
 .about-container {
   padding: 4rem 10rem;
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
   color: rgb(196, 194, 194);
 }
 
@@ -8,8 +8,9 @@ h1 {
   margin: 2rem 0;
 }
 
-.about-page-text, p {
-  font-family: 'Open Sans', sans-serif;
+.about-page-text,
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 a {

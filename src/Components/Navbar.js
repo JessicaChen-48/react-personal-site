@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import resume from "../assets/Jessica Chen Resume.pdf";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -46,6 +45,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <AnchorLink
+                offset={() => 50}
                 href="#about-anchor"
                 className="nav-links"
                 onClick={closeMobileMenu}
@@ -55,6 +55,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <AnchorLink
+                offset={() => 50}
                 href="#projects-anchor"
                 className="nav-links"
                 onClick={closeMobileMenu}
@@ -73,7 +74,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href={resume}
+                href="/src/assets/Jessica_Chen_Resume.pdf"
                 className="nav-links"
                 onClick={closeMobileMenu}
                 target="_blank"

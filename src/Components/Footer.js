@@ -6,7 +6,6 @@ function Footer() {
       <h1>CONTACT ME</h1>
       <section className="social-media">
         <div className="social-media-wrap">
-
           <div className="social-icons">
             <a
               className="social-icon-link linkedin"
@@ -50,8 +49,8 @@ function Footer() {
           </div>
         </div>
       </section>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <small className="website-rights">Jessica Chen © 2021</small>
     </div>
   );
