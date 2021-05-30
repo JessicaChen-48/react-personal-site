@@ -18,7 +18,7 @@ function Hero() {
             ABOUT ME
           </Button>
         </AnchorLink>
-        <AnchorLink offset={() => 100} href="#projects-anchor">
+        <AnchorLink offset={() => 90} href="#projects-anchor">
           <Button
             className="btns"
             buttonStyle="btn--primary"
