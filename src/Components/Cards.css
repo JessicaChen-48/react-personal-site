@@ -18,7 +18,7 @@ h1 {
 
 .cards-wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 3.1rem 0 2.8rem;
 }
 
 .cards-items {
@@ -176,5 +176,11 @@ h1 {
 @media screen and (max-width: 600px) {
   .btns {
     top: 25%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    padding: 1rem;
   }
 }
