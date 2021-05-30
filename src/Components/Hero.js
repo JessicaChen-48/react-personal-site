@@ -9,7 +9,7 @@ function Hero() {
       <h1>I'm Jessica</h1>
       <p>a full-stack software engineer</p>
       <div className="hero-btns">
-        <AnchorLink href="#about-anchor">
+        <AnchorLink offset={() => 70} href="#about-anchor">
           <Button
             className="btns"
             buttonStyle="btn--outline"
@@ -18,7 +18,7 @@ function Hero() {
             ABOUT ME
           </Button>
         </AnchorLink>
-        <AnchorLink href="#projects-anchor">
+        <AnchorLink offset={() => 100} href="#projects-anchor">
           <Button
             className="btns"
             buttonStyle="btn--primary"
