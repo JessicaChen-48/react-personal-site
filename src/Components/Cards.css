@@ -167,8 +167,9 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 411px) {
   .btns {
-    top: 18%;
+    top: 19%;
   }
 }
+

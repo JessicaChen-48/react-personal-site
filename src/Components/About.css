@@ -16,6 +16,12 @@ a {
   color: white;
 }
 
+@media screen and (max-width: 540px) {
+  .about-container {
+    padding: 4rem 3rem;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .about-container {
     padding: 4rem 1rem;
