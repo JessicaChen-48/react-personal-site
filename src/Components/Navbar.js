@@ -74,7 +74,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                href="/src/assets/Jessica_Chen_Resume.pdf"
+                href="src/assets/Jessica_Chen_Resume.pdf"
                 className="nav-links"
                 onClick={closeMobileMenu}
                 target="_blank"
