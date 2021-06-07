@@ -72,7 +72,7 @@ function Navbar() {
                 Contact
               </AnchorLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 href={"/files/Jessica_Chen_Resume.pdf"}
                 className="nav-links"
@@ -82,7 +82,7 @@ function Navbar() {
               >
                 Resume
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
