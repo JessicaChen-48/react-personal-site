@@ -17,6 +17,13 @@ let cards1 = [
     label: "FLASK & JINJA",
     path: "https://warblerwarblering.herokuapp.com/",
     github: "https://github.com/JessicaChen-48/flask-warbler"
+  },
+  {
+    src: pokeballImg,
+    text: "Poke Trainer: React site integrating with the PokeAPI",
+    label: "REACT",
+    path: "http://poketeams.jessicaazchen.com/",
+    github: "https://github.com/JessicaChen-48/poketeams"
   }
 ]
  let cards2= [
@@ -34,14 +41,7 @@ let cards1 = [
   //   label: "REACT",
   //   path: "/"
   // },
-  {
-    src: pokeballImg,
-    text: "Poke Trainer: React site integrating with the PokeAPI",
-    label: "REACT",
-    path: "http://poketeams.jessicaazchen.com/",
-    github: "https://github.com/JessicaChen-48/poketeams"
-  }
 ]
 
 
-export {cards1, cards2}
+export {cards1}
